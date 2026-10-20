@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textViewPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#111111"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:id="@+id/symbolPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#222222"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/btnSharp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="♯" />
+
+            <Button
+                android:id="@+id/btnFlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="♭" />
+
+            <Button
+                android:id="@+id/btnNatural"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="♮" />
+
+            <Button
+                android:id="@+id/btnBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="|" />
+
+            <Button
+                android:id="@+id/btnRepeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/btnTimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="x" />
+
+            <Button
+                android:id="@+id/btnWhole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="&#x1D15D;" />
+
+            <Button
+                android:id="@+id/btnHalf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="&#x1D15E;" />
+
+            <Button
+                android:id="@+id/btnNegra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="&#x1D15F;" />
+
+            <Button
+                android:id="@+id/btnCorchea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="&#x1D160;" />
+
+            <Button
+                android:id="@+id/btnSemicorchea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="&#x1D161;" />
+
+            <Button
+                android:id="@+id/btnClef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="𝄞" />
+
+            <Button
+                android:id="@+id/btnMaj7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="△" />
+
+            <Button
+                android:id="@+id/btnDim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="°" />
+
+            <Button
+                android:id="@+id/btnHalfDim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="#333333"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="ø" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textViewTooltip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPath"
+        android:background="#333333"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Usa: *negrita* _cursiva_ ~tachado~ +subrayado+"
+        android:textColor="#FFFF00"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollViewPrompter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewTooltip"
+        android:layout_above="@id/symbolPanel"
+        android:fillViewport="true">
+
+        <EditText
+            android:id="@+id/editTextPrompter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:background="@android:color/transparent"
+            android:inputType="textMultiLine|textCapSentences"
+            android:gravity="top|start"
+            android:text="Carga o escribe tu texto aquí."
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:lineSpacingMultiplier="1.2" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonAdvance"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_above="@id/symbolPanel"
+        android:layout_alignParentRight="true"
+        android:layout_margin="24dp"
+        android:background="@drawable/circle_button"
+        android:text="▼"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:padding="0dp" />
+
+</RelativeLayout>
